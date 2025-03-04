@@ -1,6 +1,6 @@
 USE memory.default;
 
-CREATE TABLE employee (
+CREATE TABLE EMPLOYEE (
                  employee_id TINYINT,
                  first_name VARCHAR,
                  last_name VARCHAR,
@@ -8,7 +8,7 @@ CREATE TABLE employee (
                  manager_id TINYINT
              );
 
-INSERT INTO employee (employee_id, first_name, last_name, job_title, manager_id) VALUES
+INSERT INTO EMPLOYEE (employee_id, first_name, last_name, job_title, manager_id) VALUES
 (1, 'Ian', 'James', 'CEO', 4),
 (2, 'Umberto', 'Torrielli', 'CSO', 1),
 (3, 'Alex', 'Jacobson', 'MD EMEA', 2),
